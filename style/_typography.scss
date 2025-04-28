@@ -1,0 +1,11 @@
+%font-base {
+    font-family: "Figtree", sans-serif;
+    color: $noir;
+    font-weight: $font-regular;
+    font-size: 14px;
+    line-height: 1.5;
+
+    @media (min-width: 300px) and (max-width: 768px) {
+        font-size: 12px;
+    }
+}
