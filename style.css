@@ -42,6 +42,12 @@ body {
   border-radius: 20px;
   box-shadow: 8px 8px 0 0 hsl(0, 0%, 7%);
 }
+.article:hover, .article:focus {
+  cursor: pointer;
+}
+.article:hover .article_txt-title, .article:focus .article_txt-title {
+  color: hsl(47, 88%, 63%);
+}
 @media (min-width: 300px) and (max-width: 768px) {
   .article {
     width: 100%;
